@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>      
+    <div class="navbar">
+        <h1>NOTES🗒️</h1>
+    </div>
+    <div class="container">
+        <div class="book-container">
+            <h2>HI</h2>
+            <h5></h5>
+            <p></p>
+            <button onclick="(deletenote(event))">delete</button>
+        </div>
+    </div>
+    <div class="overlay"></div>
+    <div class="popup-box"> 
+        <h2>NOTE</h2>
+       <form>
+        <input type="text" placeholder="Title" id="title"><br>
+        <input type="text" placeholder="Sub Title" id="obj"><br>
+        <textarea type="text" placeholder="Content" id="descript"></textarea><br>
+        <button id="addblock">ADD</button><br><br>
+        <button id="cancel">REMOVE</button>
+       </form>
+    </div>
+    <button class="add" id="popup">+</button>
+    <script src="main.js"></script>
+</body>
+</html>
